@@ -1,0 +1,171 @@
+body {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    background-color:#fff;
+    margin:0;
+}
+
+#header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#header .title {
+    height: 60px;
+    display: block;
+    background-color: #3B5998;
+    color: #fff;
+    padding-left: 30px;
+    font-size:17pt;
+    line-height: 60px;
+	
+}
+
+.white {
+	color:#fff;
+}
+#content {
+    width: 100%;
+    margin-top: 10px;
+}
+#content .page {
+    padding: 1em;
+}
+#content .left_page {
+    padding: 1em;
+}
+#content img {border:0;}
+
+#box {
+    margin-left: 3em;
+}
+
+.middle {
+	width: 527px;
+    background-color: #3B5998;
+	border-radius:10px;
+	color:#fff;
+}
+
+#box span {
+    cursor: pointer;
+}
+
+dl {
+    margin: 0;
+    padding: 0;
+}
+dt {
+    font-size: 13pt;
+    padding-left: 10px;
+    color: #303030;
+}
+dd {
+    margin: 0;
+    padding: 0.5em 1em 2em 0;
+}
+dd ul {margin: 0;padding-left: 0;list-style: none;}
+dd li {display:block;clear:both;}
+dd li span {
+    display: block;
+    float:left;
+    width: 7em;
+    text-decoration: underline;
+}
+dd span {
+    padding-right: 0.5em;
+}
+dd a, .link {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+}
+dd a:hover, .link:hover {text-decoration: underline;}
+
+#report {
+    position: absolute;
+    display: none;
+    width: 50em;
+    top: 4em;
+    left: 50%;
+	margin-left:-25em;
+    background-color: #3B5998;
+    padding: 0.5em;
+
+    z-index: 10;
+	border-radius: 10px;
+	box-shadow: inset #eee 0 0 3px 3px;
+}
+#report ul, #history ul, #details ul {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.4em;
+    list-style: none;
+}
+#report li, #history li, #details li {
+    clear: both;
+/*    float: left;*/
+    font-size: 8pt;
+    display: block;
+    padding: 0;
+}
+#report li label, #history li label, #details li label {
+    display: block;
+    float: left;
+    width: 10em;
+    padding: 0;
+    margin: 0 0 0 0.4em;
+    text-align: left;
+}
+#report li span, #history li span, #details li span {
+    float: left;
+    display: block;
+}
+#report th, #history th {
+    background-color: #C3C3C3;
+    padding-left: 5px;
+}
+#report td, #history td {
+    background-color: #FFFFFF;
+    font-size: 10pt;
+    padding-left: 5px;
+}
+
+#history {
+    position: absolute;
+    display: none;
+    width: 60em;
+    top: 3.5em;
+    left: 10em;
+    background-color: #3B5998;
+    padding: 0.5em;
+	box-shadow: inset #eee 0 0 3px 3px;
+    z-index: 10;
+	border-radius:10px;
+}
+#history dl {padding:0;margin:0;}
+#history dd {padding:0;margin-left:10em;}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+
+.main_text {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color:#000000;font-size:10pt;
+}
+
+.close {
+    margin-bottom: 1em;
+    padding: 0.1em 0.3em 0.1em 1em;
+    float: right;
+    cursor: pointer;
+}
+.error {
+    color: red;
+    padding-left: 2em;
+}
