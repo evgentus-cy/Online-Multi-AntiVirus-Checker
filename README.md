@@ -1,1 +1,1 @@
-#zzzzz.github.io
+#zzzzz.github.io/index.php
